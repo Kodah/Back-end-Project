@@ -62,3 +62,38 @@ for(int i=0; i< arr.Length;i++)
 // ------------ Task #8 ------------
 
 Console.WriteLine("Index Of 90: " + Array.IndexOf(arr, 90));
+
+// ------------ Task #9 ------------
+
+public class Program
+{
+    public static void Main()
+    {
+        Person[] persons = new Person[2];
+        persons[0] = new Person
+        {
+            Name = "Omar",
+            Age = 23
+        };
+
+        persons[1] = new Person
+        {
+            Name = "Luffy",
+            Age = 22
+        };
+
+        foreach(Person person in persons)
+        {
+            Console.WriteLine(person.Name);
+            Console.WriteLine(person.Age);
+        }
+
+    }
+
+    public class Person()
+    {
+        public String Name {  get; set; }
+
+        public int Age { get; set; }
+    }
+}
