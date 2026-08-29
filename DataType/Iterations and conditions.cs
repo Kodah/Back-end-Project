@@ -1,3 +1,6 @@
+
+// --------------- Task #1 ---------------
+
 int x = 15;
 
 if (x >= 0)
@@ -9,14 +12,19 @@ else
         Console.WriteLine("x is samller");
     }
 
+Console.WriteLine();
+// --------------- Task #2 ---------------
+
 int counter = 0;
 
 for (int y=0;y<=10;y++)
     {
     counter = counter + y;
     }
-Console.Write("The Counter after Sum: ");
-Console.WriteLine(counter);
+Console.WriteLine($"The Counter after Sum: {counter}");
+Console.WriteLine();
+
+// --------------- Task #3 ---------------
 
 string[] Names = { "3amoorah", "Luffy", "Alghazo", "Rababa'h", "Smadi", "Derar" };
 foreach(string names in Names)
@@ -24,18 +32,24 @@ foreach(string names in Names)
     Console.WriteLine(names);
 }
 
-while(x < 20)
+Console.WriteLine();
+// --------------- Task #4 ---------------
+
+while (x < 20)
 {
-    Console.Write("The number is: ");
-    Console.WriteLine(x);
+    Console.WriteLine($"The number is: {x}");
     x++;
 }
+
+
+Console.WriteLine();
+// --------------- Task #5 ---------------
 
 int K = 3;
 do
 {
-    Console.Write("K after +1: ");
-    Console.WriteLine(K);
+    Console.WriteLine($"K after +1: {K}");
     K++;
 } while (K <= 9);
 
+Console.WriteLine();
