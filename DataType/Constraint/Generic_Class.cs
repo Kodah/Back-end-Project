@@ -9,7 +9,7 @@ public class Program
         Box<Employee> EmployeeBox = new Box<Employee>();
 
         Intbox.Value = 23;
-        StBox.Value = "LuffyEpstien";
+        StBox.Value = "Luffy";
         EmployeeBox.Value = new Employee()
         {
             Name = "AboodTown",
