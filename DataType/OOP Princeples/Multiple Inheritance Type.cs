@@ -2,24 +2,23 @@ using System;
 
 class Program
 {
-    
-   interface Ifather
+
+    interface Ifather
     {
         void Money();
     }
-    
+
     interface Imother
     {
         void Hair();
     }
 
-    class SON
+    class SON : Imother, Ifather
     {
         public void Money()
         {
             Console.WriteLine("I have Money from my father.");
         }
-
         public void Hair()
         {
             Console.WriteLine("My hair like the type of My mother's hair.");
@@ -32,5 +31,5 @@ class Program
         son.Money();
         son.Hair();
     }
- 
+
 }
